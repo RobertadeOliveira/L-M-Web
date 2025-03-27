@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(white, #dedede);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.textoCadastro{
+    display: flex;
+    justify-content: center;
+    color: #32bbff;
+    margin-top: 50px;
+    height: 70px;
+}
+
+.background_cadastro{
+    width: 20%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.cadastroInputs{
+    height: 6%;
+    width: 70%;
+    border: none;
+    background-color: #dedede;
+    color:#000000;
+    border-radius: 5px;
+}
+
+.botaoCadastrar{
+    height: 7%;
+    width: 55%;
+    margin-top: 8%;
+    border: none;
+    background-color: #32bbff;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 0px 0px 0px;
+    transition: box-shadow 0.2s ease;
+}
+
+.botaoCadastrar:hover{
+    box-shadow: 0px 0px 10px black;
+    transition: box-shadow 0.2s ease;
+}
+
+.botaoCadastrar:active{
+    box-shadow: 0px 0px 0px 0px;
+}
