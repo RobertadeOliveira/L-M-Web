@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-html{
-    height: 100%;
-}
-
-body{
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(white, #dedede);
-    
-}
-
 .container{
     display: flex;
     justify-content: center;
@@ -18,22 +6,21 @@ body{
     width: 100%;
 }
 
-.logo{
+.textoLogin{
     display: flex;
     justify-content: center;
-}
-
-.textoCadastro{
-    display: flex;
-    justify-content: center;
+    align-items: center;
     color: #32bbff;
-    margin-top: 50px;
+    margin-top: 20px;
+    font-size: 3vh;
     height: 70px;
+    margin-bottom: 30px;
+    animation: animacaoDireita 1.25s;
 }
 
-.background_cadastro{
+.background_login{
     width: 20%;
-    height: 650px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +29,8 @@ body{
     border-radius: 4px;
 }
 
-.cadastroInputs{
-    height: 6%;
+.loginInputs{
+    height: 15%;
     width: 70%;
     border: none;
     background-color: #dedede;
@@ -52,8 +39,8 @@ body{
     text-indent: 10%;
 }
 
-.botaoCadastrar{
-    height: 7%;
+.botaoLogin{
+    height: 15%;
     width: 55%;
     margin-top: 8%;
     border: none;
@@ -65,33 +52,29 @@ body{
     transition: box-shadow 0.2s ease;
 }
 
-.botaoCadastrar:hover{
+.botaoLogin:hover{
     box-shadow: 0px 0px 10px black;
     transition: box-shadow 0.2s ease;
 }
 
-.botaoCadastrar:active{
+.botaoLogin:active{
     box-shadow: 0px 0px 0px 0px;
+    
 }
 
-header {
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    padding: 10px 0
+#linkEsqueci{
+    margin-top: 4%;
+    font-size: small;
+    margin-bottom: 2%;
+    color: rgb(97, 97, 97)
 }
 
-nav ul{
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
+#linkLogin{
+    margin-top: 5%;
+    font-size: smaller;
+    color: rgb(97, 97, 97)
 }
-
-.link1{
-    font-weight: bold;
-    transition: color 0.5s ease;
-
-}
-.link1:hover{
+#linkEsqueci:hover, #linkLogin:hover{
     color: #32bbff;
     transition: color 0.25s ease;
 }
